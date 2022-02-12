@@ -44,7 +44,7 @@ function status(string $status): string
 
 function valor(int $valor): string
 {
-    $valor = $valor / 1000;
+    $valor = $valor / 100;
 
     return number_format($valor, 2, ',', '.');
 }
